@@ -76,15 +76,11 @@ CSR Reports        ──▶   sustainability      ──▶   K-Means Clusterin
 
 | Financial Trends | Inventory Turnover | Store Ratings by Region |
 |:---:|:---:|:---:|
-| ![financial_trends_4panel](https://github.com/user-attachments/assets/003ce131-dce8-47ed-927e-e6b50390d599)
-| ![inventory_turnover](https://github.com/user-attachments/assets/17657696-138e-4bd1-9fb8-b32c6a54e893)
-| ![rating_by_region](https://github.com/user-attachments/assets/bbfbc07f-8e85-4c14-bb7f-3b6ade66351f)
+| ![financial_trends_4panel](https://github.com/user-attachments/assets/003ce131-dce8-47ed-927e-e6b50390d599) | ![inventory_turnover](https://github.com/user-attachments/assets/17657696-138e-4bd1-9fb8-b32c6a54e893) | ![rating_by_region](https://github.com/user-attachments/assets/bbfbc07f-8e85-4c14-bb7f-3b6ade66351f) |
 
 | K-Means Clustering | Rating Distribution | Revenue & Margin |
 |:---:|:---:|:---:|
-| ![kmeans_clusters](https://github.com/user-attachments/assets/076901aa-ea0d-4959-838e-38ee4ea7ce04)
-| ![rating_distribution](https://github.com/user-attachments/assets/9bfb77c4-441e-45e0-bf6b-dbadaaf1137b)
-| ![revenue_margin_trend](https://github.com/user-attachments/assets/ca351ed1-955e-4e46-88f4-59aa34cc0f9d)
+| ![kmeans_clusters](https://github.com/user-attachments/assets/076901aa-ea0d-4959-838e-38ee4ea7ce04) | ![rating_distribution](https://github.com/user-attachments/assets/9bfb77c4-441e-45e0-bf6b-dbadaaf1137b) | ![revenue_margin_trend](https://github.com/user-attachments/assets/ca351ed1-955e-4e46-88f4-59aa34cc0f9d) |
 
 ---
 
