@@ -1,0 +1,4 @@
+id,report_year,scope1_emissions,scope2_emissions,scope2_market,scope3_emissions,total_energy_mwh,renewable_energy_pct,water_consumption_bgal,waste_diverted_pct,recycling_rate_pct,solar_energy_mwh,smartway_award,source_report
+1,2025,388,857,780,113364,4424374,14,2.47,40.1,40,359236,1,https://corporate.lowes.com/sites/lowes-corp/files/2025-09/Lowes_2024_CRR_6.30.25_1_0.pdf
+2,2024,413,868,857,120103,4381174,13,2.47,41.1,40.9,321451,0,https://corporate.lowes.com/sites/lowes-corp/files/2024-11/Lowes_2023_CRR_Tagged_0.pdf
+3,2023,437,1025,932,137876,5280889,11,2.55,33.8,33.6,309785,0,https://corporate.lowes.com/sites/lowes-corp/files/2025-03/CR/lowes-2022-crr.03.04.25.pdf

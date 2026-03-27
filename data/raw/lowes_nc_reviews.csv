@@ -1,0 +1,119 @@
+id,source,store_number,city,store_address,store_name,state_code,zip_code,latitude,longitude,overall_rating,review_count,scraped_at
+1,google,1529,Albemarle,820 Nc 24-27 Bypass East,Lowe's Home Improvement,NC,28001,35.345365,-80.165731,4.2,1594,3/25/26
+2,google,1878,Apex,1101 Beaver Creek Commons Dr,Lowe's Home Improvement,NC,27502,35.7456,-78.8771,4.2,1899,3/25/26
+3,google,2201,Arden,19 McKenna Rd,Lowe's Home Improvement,NC,28704,35.448986,-82.538057,4.1,1709,3/25/26
+4,google,0449,Asheboro,1120 E Dixie Dr,Lowe's Home Improvement,NC,27203,35.6903,-79.8042,4.2,2242,3/25/26
+5,google,3617,Asheville,89 S Tunnel Rd,Lowe's Home Improvement,NC,28805,35.577878,-82.523003,4,1803,3/25/26
+6,google,0526,Asheville,95 Smokey Park Hwy,Lowe's Home Improvement,NC,28806,35.569721,-82.627287,3.9,1824,3/25/26
+7,google,1834,Banner Elk,2014 Tynecastle Hwy,Lowe's Home Improvement,NC,28604,36.142152,-81.860644,4.2,807,3/25/26
+8,google,2650,Belmont,200 Caldwell Farm Rd,Lowe's Home Improvement,NC,28012,35.254512,-81.037482,4.2,2070,3/25/26
+9,google,1522,Boone,1855 Blowing Rock Rd,Lowe's Home Improvement,NC,28607,36.200116,-81.656138,4.2,1210,3/25/26
+10,google,1990,Brevard,119 Ecusta Rd,Lowe's Home Improvement,NC,28712,35.272342,-82.703252,4.1,977,3/25/26
+11,google,0508,Burlington,125 Huffman Mill Rd,Lowe's Home Improvement,NC,27215,36.079482,-79.483375,4.2,2404,3/25/26
+12,google,2436,Cape Carteret,401 W B McLean Dr,Lowe's Home Improvement,NC,28584,34.691013,-77.067177,4.2,1397,3/25/26
+13,google,1835,Cary,1920 NW Maynard Rd,Lowe's Home Improvement,NC,27513,35.798291,-78.793692,4.2,2016,3/25/26
+14,google,0426,Cary,2000 Walnut St,Lowe's Home Improvement,NC,27518,35.757061,-78.742781,4.1,2018,3/25/26
+15,google,0487,Chapel Hill,1801 Fordham Blvd,Lowe's Home Improvement,NC,27514,35.94773,-79.012514,4,1570,3/25/26
+16,google,2348,Charlotte,217 Iverson Way,Lowe's Home Improvement,NC,28203,35.206034,-80.861378,4.1,2246,3/25/26
+17,google,0408,Charlotte,1100 Chancellor Park Dr,Lowe's Home Improvement,NC,28213,35.292022,-80.74251,4.1,2179,3/25/26
+18,google,1112,Charlotte,5310 Ballantyne Commons Pkwy,Lowe's Home Improvement,NC,28277,35.065709,-80.772383,4.2,977,3/25/26
+19,google,2352,Charlotte,10275 Perimeter Pkwy,Lowe's Home Improvement,NC,28216,35.345945,-80.855859,4.2,2403,3/25/26
+20,google,1920,Charlotte,8826 Albemarle Rd,Lowe's Home Improvement,NC,28227,35.20879,-80.696686,4.2,1816,3/25/26
+21,google,1060,Charlotte,8192 S Tryon St,Lowe's Home Improvement,NC,28273,35.145672,-80.931976,4.1,1654,3/25/26
+22,google,0377,Charlotte,10625 McMullen Creek Pkwy,Lowe's Home Improvement,NC,28226,35.090441,-80.855809,4.1,1569,3/25/26
+23,google,1689,Clinton,911 Sunset Ave,Lowe's Home Improvement,NC,28328,34.993665,-78.33988,4.1,1227,3/25/26
+24,google,0697,Concord,940 Concord Parkway North,Lowe's Home Improvement,NC,28027,35.43990712,-80.61350327,4.2,2228,3/25/26
+25,google,2981,Concord,8670 Concord Mills Blvd,Lowe's Home Improvement,NC,28027,35.375679,-80.728931,4.2,2184,3/25/26
+26,google,2636,Denver,7144 NC-73,Lowe's Home Improvement,NC,28037,35.448575,-81.004577,4.2,1627,3/25/26
+27,google,2778,Durham,4402 Fayetteville Rd,Lowe's Home Improvement,NC,27713,35.940909,-78.907787,4.1,2030,3/25/26
+28,google,0576,Durham,117 William Penn Plaza,Lowe's Home Improvement,NC,27704,36.044846,-78.89975,4,2217,3/25/26
+29,google,1713,Elizabeth City,1605 W Ehringhaus St,Lowe's Home Improvement,NC,27909,36.29114,-76.245984,3.9,1801,3/25/26
+30,google,1653,Elkin,492 CC Camp Rd,Lowe's Home Improvement,NC,28621,36.273704,-80.841033,4.2,1254,3/25/26
+31,google,1777,Erwin,524 E Jackson Blvd,Lowe's Home Improvement,NC,28339,35.324702,-78.64582,4.1,1727,3/25/26
+32,google,0388,Fayetteville,1929 Skibo Rd,Lowe's Home Improvement,NC,28314,35.066155,-78.964106,4.1,3016,3/25/26
+33,google,0767,Fayetteville,3909 Ramsey St,Lowe's Home Improvement,NC,28311,35.114435,-78.884783,4,2397,3/25/26
+34,google,2905,Fayetteville,7771 Good Middling Dr,Lowe's Home Improvement,NC,28304,35.027156,-79.057841,4.2,2305,3/25/26
+35,google,1788,Forest City,184 Lowes Blvd,Lowe's Home Improvement,NC,28043,35.33878,-81.895919,4,1812,3/25/26
+36,google,0717,Franklin,161 Franklin Plaza,Lowe's Home Improvement,NC,28734,35.166286,-83.393418,4,1408,3/25/26
+37,google,0488,Garner,1575 US-70,Lowe's Home Improvement,NC,27529,35.72351,-78.64997,4.1,2612,3/25/26
+38,google,0677,Garner,101 Cleveland Crossing Dr,Lowe's Home Improvement,NC,27529,35.608347,-78.55846,4.2,2418,3/25/26
+39,google,0457,Gastonia,3250 E Franklin Blvd,Lowe's Home Improvement,NC,28056,35.2601,-81.120563,4.2,2570,3/25/26
+40,google,0557,Goldsboro,1202 N Berkeley Blvd,Lowe's Home Improvement,NC,27534,35.379678,-77.929357,3.9,2513,3/25/26
+41,google,0387,Greensboro,3001 Battleground Ave,Lowe's Home Improvement,NC,27408,36.114947,-79.83771,4.2,2100,3/25/26
+42,google,2222,Greensboro,109 W Elmsley Dr,Lowe's Home Improvement,NC,27406,36.001824,-79.795669,4.2,1817,3/25/26
+43,google,0404,Greensboro,1703 S 40 Dr,Lowe's Home Improvement,NC,27407,36.0546,-79.8891,4.1,1828,3/25/26
+44,google,2771,Greensboro,2005 E Cone Blvd,Lowe's Home Improvement,NC,27405,36.113495,-79.754639,4.2,1934,3/25/26
+45,google,3643,Greensboro,3729 Battleground Ave,Lowe's Outlet Store,NC,27410,36.114299,-79.834552,4,309,3/25/26
+46,google,2837,Greenville,3840 E 10th St,Lowe's Home Improvement,NC,27858,35.588025,-77.318144,4.2,1528,3/25/26
+47,google,2256,Hampstead,106 Wilkes Ln,Lowe's Home Improvement,NC,28443,34.45253214,-77.60844253,4.2,1595,3/25/26
+48,google,0738,Henderson,166 Dabney Rd,Lowe's Home Improvement,NC,27537,36.33890579,-78.43954336,4.1,1612,3/25/26
+49,google,0031,Hendersonville,1415 7th Ave E,Lowe's Home Improvement,NC,28792,35.33054818,-82.4511592,3.8,2102,3/25/26
+50,google,1557,Hickory,1550 21st St Dr SE,Lowe's Home Improvement,NC,28602,35.70222,-81.28362,4.2,2749,3/25/26
+51,google,2370,Hickory,1450 2nd St NE,Lowe's Home Improvement,NC,28601,35.752543,-81.334153,4.2,1814,3/25/26
+52,google,0459,High Point,2600 N Main St,Lowe's Home Improvement,NC,27265,35.99188268,-80.02741136,4.2,2733,3/25/26
+53,google,3316,Holly Springs,2240 Ralph Stephens Rd,Lowe's Home Improvement,NC,27540,35.63098353,-78.82821136,4.2,724,3/25/26
+54,google,2906,Hope Mills,3080 N Main St,Lowe's Home Improvement,NC,28348,34.97952973,-78.96224907,4.2,2221,3/25/26
+55,google,0489,Huntersville,16830 Statesville Rd,Lowe's Home Improvement,NC,28078,35.446358,-80.865247,4.2,1773,3/25/26
+56,google,2907,Indian Trail,5711 W Hwy 74,Lowe's Home Improvement,NC,28079,35.06188012,-80.63838436,4.2,1690,3/25/26
+57,google,0556,Jacksonville,1255 Western Blvd,Lowe's Home Improvement,NC,28546,34.79983236,-77.39894251,4.3,2392,3/25/26
+58,google,2737,Jacksonville,425 Yopp Rd,Lowe's Home Improvement,NC,28540,34.77379721,-77.45857581,4.3,1802,3/25/26
+59,google,2368,Kannapolis,3025 Dale Earnhardt Blvd,Lowe's Home Improvement,NC,28083,35.46900347,-80.587205,4.3,2193,3/25/26
+60,google,1141,Kernersville,145 Harmon Creek Rd,Lowe's Home Improvement,NC,27284,36.10678153,80.10282547,4.2,2184,3/25/26
+61,google,3216,Kill Devil Hills,1500 N Croatan Hwy,Lowe's Home Improvement,NC,27948,36.02646238,-75.67019715,4.2,1128,3/25/26
+62,google,1722,Kinston,4489 US-70,Lowe's Home Improvement,NC,28504,35.26033125,77.64933912,4.1,1569,3/25/26
+63,google,1095,Knightdale,7316 Knightdale Blvd,Lowe's Home Improvement,NC,27545,35.79659801,-78.48375388,3.8,2295,3/25/26
+64,google,2564,Laurinburg,"By-Pass, 910 US-401",Lowe's Home Improvement,NC,28352,34.76174825,79.47924531,4.2,1162,3/25/26
+65,google,3478,Leland,3716 Gateway Blvd,Lowe's Home Improvement,NC,28451,34.36885917,-78.04394688,4.2,345,3/25/26
+66,google,1509,Lenoir,1201 Hickory Blvd E,Lowe's Home Improvement,NC,28645,35.8988206,-81.51924636,4.1,1984,3/25/26
+67,google,0490,Lexington,130 Lowes Blvd,Lowe's Home Improvement,NC,27292,35.79034795,-80.25803026,4.1,2241,3/25/26
+68,google,0700,Lincolnton,1603 E Main St,Lowe's Home Improvement,NC,28092,35.47941905,-81.23224226,4.1,2093,3/25/26
+69,google,0739,Lumberton,5060 Fayetteville Rd,Lowe's Home Improvement,NC,28358,34.66463379,-79.00365521,4.1,1867,3/25/26
+70,google,1922,Marion,480 US-70,Lowe's Home Improvement,NC,28752,36.00957768,-82.05283448,4.1,1550,3/25/26
+71,google,1124,Matthews,2115 Matthews Township Pkwy,Lowe's Home Improvement,NC,28105,35.12804627,-80.70526164,4.2,1491,3/25/26
+72,google,2996,Mayodan,6844 NC-135,Lowe's Home Improvement,NC,27027,36.41510995,-79.93926064,4.4,1173,3/25/26
+73,google,2517,Mebane,200 Lowes Blvd,Lowe's Home Improvement,NC,27302,36.0677753,-79.30098767,4.2,1679,3/25/26
+74,google,2575,Mocksville,1427 Yadkinville Rd,Lowe's Home Improvement,NC,27028,35.91837139,-80.58475579,4.3,1236,3/25/26
+75,google,0680,Monroe,2350 W Roosevelt Blvd,Lowe's Home Improvement,NC,28110,35.01236389,-80.56179609,4.1,1786,3/25/26
+76,google,0595,Mooresville,509 River Hwy,Lowe's Home Improvement,NC,28117,35.593006,-80.866829,4.2,2223,3/25/26
+77,google,0619,Morehead City,5219 Hwy 70 W,Lowe's Home Improvement,NC,28557,34.7376507,-76.81218518,4.1,1895,3/25/26
+78,google,1097,Morganton,1224 Burkemont Ave,Lowe's Home Improvement,NC,28655,35.71796964,-81.69745232,4.1,1892,3/25/26
+79,google,0478,Mount Airy,692 S Andy Griffith Pkwy Ste100,Lowe's Home Improvement,NC,27030,36.48564102,-80.61683172,4.2,1849,3/25/26
+80,google,2505,Murphy,198 Bulldog Dr,Lowe's Home Improvement,NC,28906,35.33093916,-83.98057969,4.1,1632,3/25/26
+81,google,0566,New Bern,1400 Lowes Blvd,Lowe's Home Improvement,NC,28562,35.09952133,-77.08861791,4,2319,3/25/26
+82,google,0907,North Wilkesboro,2003 US-421,Lowe's Home Improvement,NC,28697,36.14792226,-81.20534616,4,1518,3/25/26
+83,google,2448,Pittsboro,121 Lowes Dr,Lowe's Home Improvement,NC,27312,35.74462157,-79.16487491,4.1,1180,3/25/26
+84,google,0444,Raleigh,4601 Capital Blvd,Lowe's Home Improvement,NC,27604,35.845742,-78.581907,4,2452,3/25/26
+85,google,0625,Raleigh,4831 Grove Barton Rd,Lowe's Home Improvement,NC,27613,35.870019,-78.719895,4.1,1941,3/25/26
+86,google,1210,Reidsville,5201 US-29 BUS,Lowe's Home Improvement,NC,27320,36.37825123,-79.66240291,4.2,1653,3/25/26
+87,google,1815,Roanoke Rapids,1600 Julian R Allsbrook Hwy,Lowe's Home Improvement,NC,27870,36.43506121,-77.63379098,4.2,1357,3/25/26
+88,google,1038,Rockingham,1300-A E Broad Ave,Lowe's Home Improvement,NC,28379,34.92116232,-79.75008972,4.1,1510,3/25/26
+89,google,0547,Rocky Mount,700 N Wesleyan Blvd,Lowe's Home Improvement,NC,27804,36.00751388,-77.82044574,4.1,2230,3/25/26
+90,google,2210,Roxboro,2044 Durham Rd,Lowe's Home Improvement,NC,27573,36.36623279,-78.98371068,4.3,978,3/25/26
+91,google,0495,Salisbury,207 Faith Rd,Lowe's Home Improvement,NC,28146,35.65476135,-80.46020128,4.1,2396,3/25/26
+92,google,3608,Sanford,3015 S Horner Blvd,Lowe's Home Improvement,NC,27332,35.453551,-79.134276,4,2498,3/25/26
+93,google,1068,Shallotte,351 Whiteville Rd NW,Lowe's Home Improvement,NC,28470,33.97590784,-78.39972999,4.2,1457,3/25/26
+94,google,0612,Shelby,425 Earl Rd,Lowe's Home Improvement,NC,28150,35.36425354,-81.53179148,4.1,2266,3/25/26
+95,google,0647,Smithfield,1230 N Brightleaf Blvd,Lowe's Home Improvement,NC,27577,35.58874388,-78.31688565,4.1,2040,3/25/26
+96,google,0538,Southern Pines,10845 US 15-501 Hwy,Lowe's Home Improvement,NC,28387,35.16357919,-79.41982901,3.9,1916,3/25/26
+97,google,0682,Southport,5084 Southport-Supply Rd SE,Lowe's Home Improvement,NC,28461,33.95517468,-78.04472464,4.1,1269,3/25/26
+98,google,0458,Statesville,140 N Pointe Blvd,Lowe's Home Improvement,NC,28625,35.8181007,-80.87956118,4.1,1910,3/25/26
+99,google,2257,Sylva,1716 E Main St,Lowe's Home Improvement,NC,28779,35.35407426,-83.20188945,3.8,1215,3/25/26
+100,google,3022,Tarboro,111 River Oaks Dr,Lowe's Home Improvement,NC,27886,35.88334485,-77.54663328,4.3,790,3/25/26
+101,google,0762,Troutman,286 Houston Rd,Lowe's Design Center,NC,28166,35.67724605,-80.84895954,4.6,52,3/25/26
+102,google,2750,Troutman,1041 Charlotte Hwy,Lowe's Home Improvement,NC,28166,35.67306074,-80.85455109,4.4,1370,3/25/26
+103,google,2255,W. Jefferson,158 Lowes Dr,Lowe's Home Improvement,NC,28694,36.38460158,-81.48126629,4.2,808,3/25/26
+104,google,1798,Wake Forest,11800 Galaxy Dr,Lowe's Home Improvement,NC,27587,35.96834798,-78.53901376,4.2,2164,3/25/26
+105,google,0786,Washington,1701 Carolina Ave,Lowe's Home Improvement,NC,27889,35.6407218,-77.05841248,4.2,1406,3/25/26
+106,google,2638,Waxhaw,2508 Cuthbertson Rd,Lowe's Home Improvement,NC,28173,34.95977095,-80.75829228,4.2,1166,3/25/26
+107,google,0470,Waynesville,100 Liner Cove Rd,Lowe's Home Improvement,NC,28786,35.52166445,-82.95758972,3.9,1955,3/25/26
+108,google,2634,Weaverille,24 Northridge Commons Pkwy,Lowe's Home Improvement,NC,28787,35.7049248,-82.57498218,3.9,1883,3/25/26
+109,google,2869,Whiteville,100 Green Hill Dr,Lowe's Home Improvement,NC,28472,34.3011034,-78.71764182,4.2,1214,3/25/26
+110,google,0701,Wilkesboro,2003 US-421,Lowe's Home Improvement,NC,28697,36.14787894,-81.20547491,4,1518,3/25/26
+111,google,0445,Wilmington,354 College Rd,Lowe's Home Improvement,NC,28403,34.23626,-77.879071,4.1,2415,3/25/26
+112,google,1138,Wilmington,5110 College Rd,Lowe's Home Improvement,NC,28412,34.148175,-77.895904,4.1,1621,3/25/26
+113,google,2982,Wilmington,191 Porters Neck Rd,Lowe's Home Improvement,NC,28411,34.302217,-77.788989,4.3,1448,3/25/26
+114,google,0726,Wilson,2501 Forest Hills Rd W,Lowe's Home Improvement,NC,27893,35.79449181,-77.940324,4.1,1855,3/25/26
+115,google,0436,Winston-Salem,935 Hanes Mall Blvd,Lowe's Home Improvement,NC,27103,36.06332,-80.31375,4.1,2478,3/25/26
+116,google,0480,Winston-Salem,5901 University Pkwy,Lowe's Home Improvement,NC,27105,36.183024,-80.271826,4.1,2503,3/25/26
+117,google,2653,Winston-Salem,1450 Lumber Ln,Lowe's Home Improvement,NC,27127,36.031497,-80.262084,4.2,2157,3/25/26
+118,google,0598,Winterville,800 Thomas Langston Rd,Lowe's Home Improvement,NC,28590,35.63839232,-77.40748708,4.1,2221,3/25/26
