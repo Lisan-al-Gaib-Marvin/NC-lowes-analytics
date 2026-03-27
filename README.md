@@ -69,131 +69,50 @@ CSR Reports        ──▶   sustainability      ──▶   K-Means Clusterin
 ### Tableau Executive Dashboard
 *KPI cards with YoY trends, NC store map by rating tier, quarterly revenue trend, and ratings by region*
 
-![Tableau Dashboard](dashboards/tableau/dashboard_screenshot.png)
+![Tableau Dashboard]![dashboard_screenshot](https://github.com/user-attachments/assets/62d1fdaa-0434-477f-bcdb-46509367d02b)
+
 
 ### Key Visuals from Analysis
 
 | Financial Trends | Inventory Turnover | Store Ratings by Region |
 |:---:|:---:|:---:|
-| ![Trends](outputs/financial_trends_4panel.png) | ![Turnover](outputs/inventory_turnover.png) | ![Regions](outputs/rating_by_region.png) |
+| ![Trends]![financial_trends_4panel](https://github.com/user-attachments/assets/003ce131-dce8-47ed-927e-e6b50390d599)
+| ![Turnover]![inventory_turnover](https://github.com/user-attachments/assets/17657696-138e-4bd1-9fb8-b32c6a54e893)
+| ![Regions]![rating_by_region](https://github.com/user-attachments/assets/bbfbc07f-8e85-4c14-bb7f-3b6ade66351f)
 
 | K-Means Clustering | Rating Distribution | Revenue & Margin |
 |:---:|:---:|:---:|
-| ![Clusters](outputs/kmeans_clusters.png) | ![Distribution](outputs/rating_distribution.png) | ![Revenue](outputs/revenue_margin_trend.png) |
+| ![Clusters]![kmeans_clusters](https://github.com/user-attachments/assets/076901aa-ea0d-4959-838e-38ee4ea7ce04)
+| ![Distribution]![rating_distribution](https://github.com/user-attachments/assets/9bfb77c4-441e-45e0-bf6b-dbadaaf1137b)
+| ![Revenue]![revenue_margin_trend](https://github.com/user-attachments/assets/ca351ed1-955e-4e46-88f4-59aa34cc0f9d)
 
 ---
 
-## Project Structure
-
-```
-lowes-analytics/
-├── README.md
-├── requirements.txt
-├── .gitignore
-│
-├── sql/
-│   ├── lowes_db_creation.sql        # Schema: 6 tables (financials, reviews, sustainability, employment, stock)
-│   └── cleaning_tables.sql          # Transforms: staging → clean tables with derived KPIs
-│
-├── scripts/
-│   ├── lowes_etl_financials.ipynb   # ETL: SEC filing data → MySQL (upsert logic)
-│   └── lowes_etl_sustainability.ipynb # ETL: CSR report data → MySQL
-│
-├── notebooks/
-│   ├── 01_eda_financials.ipynb      # EDA: revenue trends, margin analysis, inventory turnover
-│   ├── 02_modeling.ipynb            # Models: linear regression, K-Means clustering, financial trends
-│   └── 03_claude_integration.ipynb  # AI: Claude API for feature selection + executive narrative
-│
-├── data/
-│   ├── raw/                         # Source CSVs (financials, reviews, sustainability)
-│   └── clean/                       # Cleaned exports for Tableau/Power BI
-│
-├── outputs/                         # Chart PNGs, Claude API responses
-│   ├── financial_trends_4panel.png
-│   ├── kmeans_clusters.png
-│   ├── rating_by_region.png
-│   ├── claude_feature_selection.md
-│   └── claude_executive_summary.md
-│
-├── dashboards/
-│   ├── tableau/                     # Tableau workbook + screenshots
-│   └── powerbi/                     # Power BI report + screenshots
-│
-└── app/                             # (Optional) Streamlit interactive app
-    └── streamlit_app.py
-```
-
----
 
 ## Tools & Technologies
 
 | Layer | Tools |
 |-------|-------|
-| **Database** | MySQL 8.0 — schema design, staging/clean tables, derived KPIs |
-| **ETL** | Python (mysql.connector, csv) — upsert logic, null handling, data validation |
-| **Analysis** | Pandas, NumPy, Matplotlib, Seaborn — EDA, correlation analysis |
+| **Database** | MySQL 
+| **ETL** | Python (mysql.connector, csv) 
+| **Analysis** | Pandas, NumPy, Matplotlib, Seaborn — EDA, correlation analysis 
 | **Modeling** | scikit-learn — Linear Regression, K-Means, PCA, StandardScaler, silhouette scoring |
-| **AI Integration** | Anthropic Claude API (Sonnet 4.6) — feature selection, executive narrative generation |
-| **Dashboards** | Tableau Desktop (LaDataViz KPI extension), Power BI |
+| **AI Integration** | Anthropic Claude API (Sonnet 4.6) 
+| **Dashboards** | Tableau Desktop (LaDataViz KPI extension)
 | **Data Sources** | SEC EDGAR, Google Maps, Lowe's Corporate Responsibility Reports |
 
 ---
 
-## How to Run
-
-### Prerequisites
-- Python 3.9+
-- MySQL 8.0
-- Tableau Desktop (for dashboard)
-
-### Setup
-```bash
-# Clone the repo
-git clone https://github.com/Lisan-al-Gaib-Marvin/lowes-analytics.git
-cd lowes-analytics
-
-# Install dependencies
-pip install -r requirements.txt
-
-# Set up the database
-mysql -u root -p < sql/lowes_db_creation.sql
-
-# Set your API key (for Claude integration notebook)
-export ANTHROPIC_API_KEY="your-key-here"
-```
-
-### Run Order
-1. `sql/lowes_db_creation.sql` — Create database and tables
-2. `scripts/lowes_etl_financials.ipynb` — Load financial data
-3. `scripts/lowes_etl_sustainability.ipynb` — Load sustainability data
-4. Load review CSV into `reviews` table
-5. `sql/cleaning_tables.sql` — Create clean tables with derived KPIs
-6. `notebooks/01_eda_financials.ipynb` — Exploratory analysis
-7. `notebooks/02_modeling.ipynb` — Regression, clustering, trends
-8. `notebooks/03_claude_integration.ipynb` — AI-assisted analysis
-9. Open Tableau workbook and connect to clean CSVs
-
----
 
 ## What I Learned
 
-This project pushed me to work across the entire data science stack — not just modeling, but database design, ETL pipelines, data quality checks, and communicating results through multiple dashboard tools. A few things that stood out:
+This project pushed me to work across the entire data science stack not just modeling, but database design, ETL pipelines, data quality checks, and communicating results through multiple dashboard tools. A few things that stood out:
 
 - **Data collection is the hardest part.** Building the financial dataset meant reading SEC filings line by line and manually extracting numbers from press releases. Building the review dataset meant systematically querying Google Maps for 118 stores across 93 NC cities. Neither was glamorous, but both taught me more about real-world data work than any classroom assignment.
 
 - **A negative R² is a valid finding.** My linear regression returned R² = -0.38, which means the model performs worse than simply predicting the mean. Rather than hiding this, I used it as evidence that store-level engagement depends on factors beyond public geographic data — and that finding directly informed my recommendation to collect store square footage and transaction volume for future work.
 
 - **AI tools are collaborators, not replacements.** Claude API caught a longitude sign error and target leakage issue in my features that I had missed. It also generated an executive summary that I used as a starting point (not a final draft) for the Tableau dashboard narrative. The value was in the back-and-forth — sending data summaries and getting specific, actionable feedback.
-
----
-
-## Future Work
-
-- Add individual review text for NLP sentiment analysis (currently only aggregate ratings)
-- Incorporate BLS employment data for NC counties to add the workforce/economic domain
-- Build a Streamlit app for interactive store comparison
-- Expand financial data to include quarterly segments and Home Depot comparison
-- Integrate sustainability metrics into the Tableau dashboard as a dedicated story point
 
 ---
 
